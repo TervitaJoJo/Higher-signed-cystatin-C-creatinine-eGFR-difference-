@@ -1,0 +1,13 @@
+# Reproduction and anonymity verification
+
+The complete local entry point, `run_full.cmd`, was executed from the assembled package. It reconstructed intervals and fitted the clinical and external molecular models from the bundled processed observations. All 30 target tables passed comparison: 36,692 finite numerical cells, with a maximum absolute difference of 0.0 against the locked CSV outputs. Counts, coefficients, odds ratios, confidence limits, P values, heterogeneity, probability contrasts and internal discrimination metrics were included in the comparisons. The original 300 survey-PSU bootstrap replicates were retained.
+
+The workflow also recreated the three main figures and six supplementary figures in PDF and PNG. Figure 3B retains the current matched-case estimate matrix. Main figures were visually checked. The supplementary panels use the original results; their formatting can differ from the archived manuscript artwork.
+
+`results/verification.json` lists the table-level checks. `results/run_summary.json` records which mode actually refitted models. `results/input_audit.json` records R parsing and inspection of 34 data frames and 799,535 string values in the RDS inputs. That inspection found no raw survey identifier columns, executable model environments or absolute computer paths. `package_audit.json` reports recursive file counts and the submission text/PDF identity scan. `checksums.sha256` identifies all submitted sources and inputs. Source integrity is checked before reproduction; regenerated result files are excluded from that pre-run check.
+
+The clinical processed inputs remain in `local_data` for authorised local reproduction. The submission ZIP excludes that directory. It includes public processed muscle data and clinical aggregate sources, and supports both figure recreation and refitting of the public molecular analyses. Clinical refitting by a reviewer requires authorised access to the survey data. A ZIP extraction test runs the default figure workflow in a separate directory with `local_data` absent.
+
+The original survey-release acquisition and preprocessing scripts are supplied in `raw_pipeline`. These historical raw-source and network-download stages were retained and syntax-checked, but were not rerun as part of the processed-data end-to-end verification. The tested starting point is the exact frozen processed observations, not newly downloaded releases. Software environment details and the source-construction execution order are documented separately.
+
+No manuscript, supplementary document, research design, statistical specification or locked result was changed during packaging. Public source accession numbers and third-party scientific attribution remain available for provenance.

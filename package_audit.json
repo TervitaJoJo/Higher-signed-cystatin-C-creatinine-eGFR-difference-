@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "physical_files_in_code": 88,
+  "limit_per_directory_recursive": 100,
+  "directory_recursive_counts": {
+    ".": 88,
+    "data": 9,
+    "local_data": 4,
+    "raw_pipeline": 16,
+    "results": 22,
+    "scripts": 24
+  },
+  "submission_files": 84,
+  "anonymity_text_and_pdf_scan": "passed",
+  "local_survey_microdata_in_submission": false,
+  "archive_member_timestamps": "fixed",
+  "symlinks_allowed": false,
+  "binary_inputs": "plain expression/design lists and count arrays; no fitted model environments",
+  "data_access": "See DATA_ACCESS.md; complete local data are excluded from submission."
+}
