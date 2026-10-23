@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "R_scripts_parsed": 25,
+  "data_frames_checked": 34,
+  "string_values_checked": 799535,
+  "raw_identifier_columns_found": false,
+  "input_environments_found": false,
+  "absolute_computer_paths_found": false,
+  "scope": "Clinical RDS observations and public bulk expression/design inputs"
+}

@@ -1,0 +1,189 @@
+{
+  "mode": "full",
+  "comparison_tolerance": {
+    "rtol": 1e-07,
+    "atol": 1e-09
+  },
+  "tables": [
+    {
+      "table": "tables/final_competing_transition_results.csv",
+      "status": "passed",
+      "numeric_cells": 42,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/clinical_enhancement_model_results.csv",
+      "status": "passed",
+      "numeric_cells": 2022,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/clinical_nonlinear_spline_results.csv",
+      "status": "passed",
+      "numeric_cells": 24,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/clinical_interaction_results.csv",
+      "status": "passed",
+      "numeric_cells": 180,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/clinical_random_effects_meta.csv",
+      "status": "passed",
+      "numeric_cells": 33,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/hrs_primary_evalue_results.csv",
+      "status": "passed",
+      "numeric_cells": 36,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/primary_baseline_characteristics.csv",
+      "status": "passed",
+      "numeric_cells": 17,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "tables/discordance_missingness_ipw_results.csv",
+      "status": "passed",
+      "numeric_cells": 64,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "mortality_heterogeneity_20261008/tables/mortality_stratified_results.csv",
+      "status": "passed",
+      "numeric_cells": 42,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_extension_20261011/tables/renal_extension_model_results.csv",
+      "status": "passed",
+      "numeric_cells": 2669,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_extension_20261011/tables/marker_sample_flow.csv",
+      "status": "passed",
+      "numeric_cells": 49,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_extension_20261011/tables/relative_and_joint_phenotype_descriptives.csv",
+      "status": "passed",
+      "numeric_cells": 492,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_extension_20261011/tables/standardized_recovery_probabilities.csv",
+      "status": "passed",
+      "numeric_cells": 40,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_extension_20261011/tables/standardized_recovery_risk_differences.csv",
+      "status": "passed",
+      "numeric_cells": 32,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "renal_stratification_20261010/tables/renal_model_results.csv",
+      "status": "passed",
+      "numeric_cells": 1431,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "prediction_gain_20261008/tables/incremental_prediction_gain.csv",
+      "status": "passed",
+      "numeric_cells": 26,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "prediction_gain_20261008/design_validation/tables/prediction_design_validated_metrics.csv",
+      "status": "passed",
+      "numeric_cells": 624,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "prediction_gain_20261008/design_validation/tables/calibration_deciles.csv",
+      "status": "passed",
+      "numeric_cells": 480,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/tables/oxphos_sample_score_results.csv",
+      "status": "passed",
+      "numeric_cells": 513,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/tables/oxphos_gene_effects_primary6.csv",
+      "status": "passed",
+      "numeric_cells": 4748,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/tables/oxphos_candidate_gene_stability.csv",
+      "status": "passed",
+      "numeric_cells": 56,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "single_cell_depth_20261008/age_tf/tables/oxphos_module_age_associations_by_celltype.csv",
+      "status": "passed",
+      "numeric_cells": 196,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "single_cell_depth_20261008/age_tf/tables/candidate_age_associations_by_celltype.csv",
+      "status": "passed",
+      "numeric_cells": 784,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "single_cell_depth_20261008/age_tf/tables/dorothea_tf_age_associations_by_celltype.csv",
+      "status": "passed",
+      "numeric_cells": 21456,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "single_cell_depth_20261008/communication/tables/canonical_ligand_receptor_age_screen.csv",
+      "status": "passed",
+      "numeric_cells": 480,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/project_level_validation_20261007/tables/project_family_effects.csv",
+      "status": "passed",
+      "numeric_cells": 28,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/project_level_validation_20261007/tables/project_family_overall_meta.csv",
+      "status": "passed",
+      "numeric_cells": 8,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/project_level_validation_20261007/tables/project_family_leave_one_out.csv",
+      "status": "passed",
+      "numeric_cells": 32,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/project_level_validation_20261007/tables/candidate_family_direction.csv",
+      "status": "passed",
+      "numeric_cells": 64,
+      "max_abs_error": 0.0
+    },
+    {
+      "table": "muscle_oxphos_reaudit_20261007/project_level_validation_20261007/tables/candidate_family_direction_summary.csv",
+      "status": "passed",
+      "numeric_cells": 24,
+      "max_abs_error": 0.0
+    }
+  ]
+}

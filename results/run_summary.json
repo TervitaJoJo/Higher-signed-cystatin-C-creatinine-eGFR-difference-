@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "mode": "full",
+  "tables_compared": 30,
+  "numeric_cells_compared": 36692,
+  "figure_files": [
+    "Figure1_design_risk_set_and_states.pdf",
+    "Figure1_design_risk_set_and_states.png",
+    "Figure2_recovery_association_shape_and_probabilities.pdf",
+    "Figure2_recovery_association_shape_and_probabilities.png",
+    "Figure3_clinical_sensitivity_comparisons.pdf",
+    "Figure3_clinical_sensitivity_comparisons.png",
+    "FigureS1_recovery_shape_and_interactions.pdf",
+    "FigureS1_recovery_shape_and_interactions.png",
+    "FigureS2_mortality_age_heterogeneity.pdf",
+    "FigureS2_mortality_age_heterogeneity.png",
+    "FigureS3_nonlinearity_tests.pdf",
+    "FigureS3_nonlinearity_tests.png",
+    "FigureS4_single_cell_OXPHOS.pdf",
+    "FigureS4_single_cell_OXPHOS.png",
+    "FigureS5_ligand_receptor_screen.pdf",
+    "FigureS5_ligand_receptor_screen.png",
+    "FigureS6_external_muscle_OXPHOS_context.pdf",
+    "FigureS6_external_muscle_OXPHOS_context.png"
+  ],
+  "model_refitting": true,
+  "clinical_models_refitted": true,
+  "original_manuscript_modified": false
+}
